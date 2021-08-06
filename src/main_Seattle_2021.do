@@ -174,6 +174,8 @@ end
 /*-----------------------------------------------*/
 clogit choice x* ,gr(id) robust nolog
 mat V_robust_clogit = e(V)
+mat li V_robust_approx
+mat li V_robust_clogit
 display mreldif(V_robust_approx, V_robust_clogit)
 
 
