@@ -1,21 +1,21 @@
-## StataConferenceSeattle2021
+## [#StataConferenceSeattle2021](https://twitter.com/alvarogutyerrez/status/1422926920593952777)
 
 
-### Source code from the talk!
+### Source code from my talk called: *Hunting the missing score functions*.
 
 Below you might find the source code that generates the examples presented in my talk at the Stata Conference 2021.
 
 
-The adofile that replicates the examples from the talk is called [main_Seattle_2021.do](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/main_Seattle_2021.do) and it is stored in the [src](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/tree/main/src) folder. The [MyClogit.ado](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/MyClogit.ado) and its evaluator [MyLikelihood_LL.mata](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/MyLikelihood_LL.mata) are stores in the same folder.
+The adofile that replicates the examples from the talk is called [main_Seattle_2021.do](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/main_Seattle_2021.do) and it is stored in the [src](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/tree/main/src) folder. The [MyClogit.ado](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/MyClogit.ado) and its evaluator [MyLikelihood_LL.mata](https://github.com/alvarogutyerrez/StataConfSeattle2021_Hunting_the_missing_Score_Fn/blob/main/src/MyLikelihood_LL.mata) are stored in the same folder.
 
 
-The slides can be downloaded from [here](https://www.dropbox.com/s/ttbopzcp3n371yy/StataConfSeattle2021_Gutierrez-Vargas.pdf?dl=0).
+The slides of the presentation can be downloaded from [here](https://www.dropbox.com/s/ttbopzcp3n371yy/StataConfSeattle2021_Gutierrez-Vargas.pdf?dl=0).
 
 
 
 ### Further information
 
-I wrote some small posts about [-clogit-](https://www.stata.com/manuals/rclogit.pdf) in the past and how to implement it using the ml command using a Mata evaluator. You can check those here: 
+I wrote some small posts about [-clogit-](https://www.stata.com/manuals/rclogit.pdf) in the past and how to implement it using the ml command using a Mata evaluator. You can check those below.
 
 * [How to implement a conditional logit using ml interactive mode](https://alvarogutyerrez.github.io/2020/07/03/fitting-conditional-logit-using-d0-mata-based-evaluator-using-maximum-likelihood-ml-on-stata/)
 
