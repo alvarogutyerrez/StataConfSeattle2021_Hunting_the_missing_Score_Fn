@@ -11,6 +11,8 @@ The adofile that replicates the examples from the talk is called [main_Seattle_2
 
 The slides of the presentation can be downloaded from [here](https://www.dropbox.com/s/ttbopzcp3n371yy/StataConfSeattle2021_Gutierrez-Vargas.pdf?dl=0).
 
+A follow up talk presented at the [2021 UK Stata Conference](https://www.statauk.timberlake-conferences.com/) can be found [here](https://www.dropbox.com/s/454j72hwqwz8izv/UK_StataConf2021_Gutierrez-Vargas.pdf). 
+
 
 
 ### Further information
