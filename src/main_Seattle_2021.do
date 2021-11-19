@@ -145,12 +145,12 @@ mata:
 D = deriv_init()                 // Init deriv() object	
 deriv_init_evaluator(D, &LL_d()) // Object D is prodived with the pointer LL_d() 
 deriv_init_evaluatortype(D,"d")  // Set that deriv() must returns a scalar
-score_fn = J(0, cols(betas),.)   // Vector length 0xcols(betas)
+score_fn = J(N, cols(betas),.)   // Vector length 0xcols(betas)
 for(n=1; n <= N; ++n) {          // Looping over n individuals
 	  xy_n = panelsubmatrix(XY, n, paninfo)  // Extract submatrix of individual n
 	  deriv_init_params(D, betas) 	         // provide D with beta estimates
 	  deriv_init_argument(D, 1, xy_n)        // provide D with attributes values
-	  score_fn = score_fn \  deriv(D, 1)     // Collect score functions from each individual      
+	  score_fn[n,.] = deriv(D, 1)            // Collect score functions from each individual
 }
 score_fn[1..4,]  // display the score functions of the first 4 individuals
 // Finally, we save the score functions  as S just for a handy matrix multiplication afterwards.
